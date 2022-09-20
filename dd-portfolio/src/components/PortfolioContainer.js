@@ -1,31 +1,33 @@
-import React from 'react';
-import '../styles/reset.css';
-import '../styles/style.css'
-function PortfolioContainer({currentPage, handlePageChange}) {
-    return (
-        <header>
-      
-        <section class="top">
-            <h1>Sean Dillon</h1>
-           
-            <ul>
-                <li>
-                    <a href="#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </section>
-       
-        <section class="bottom">
-        <h3 class="devious-doge"><span class="default">Devious Doge</span><span class="emoji">🐕</span></h3>
-        </section>
+import React, { useState } from 'react';
+import NavTabs from './NavTabs';
+import Work from './pages/Work';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
-    </header>
-    )
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Work') {
+      return <Work />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+    </div>
+  );
 }
-export default PortfolioContainer;
