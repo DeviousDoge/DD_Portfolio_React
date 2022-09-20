@@ -1,0 +1,410 @@
+/* Designed with desktop monitors in mind first */
+body {
+    color: #00327d;
+    background-color: #cbe0ff;
+}
+/* Top-left header */
+h1 {
+    font-size:5.4rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Headers of the .left class */
+h2 {
+    margin: 30px;
+    font-size:3.6rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #000b1a;
+}
+/* top right header */
+h3 {
+    font-size:3.4rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Image Headers */
+h4 {
+  font-size:3rem;
+  font-weight:bold;
+  text-align:center;
+  text-shadow: 1px 1px 1px #000b1a;
+}
+/* About Me Body */
+p {
+    text-align: center;
+    text-indent: 10px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+}
+.pcontainer {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* Upper Header */
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: rgb(2,0,36);
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(37,22,7,1) 35%, rgba(0,212,255,1) 100%);
+  color: #ffeacb;
+  }
+  /* Upper header top left text */
+  .top h1 {
+    background-color: salmon;
+    text-shadow: 5px 2px black;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* Navbar */
+  .top ul {
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-top: 15px;
+  font-size: 2rem;
+  }
+  /* Upper header top right text */
+  .top li {
+    margin-left: 20px;
+    text-shadow: 2px 2px rgb(34, 30, 30);
+  }
+  /* Lower header */
+  .bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(87deg, rgba(2,0,36,1) 0%, rgba(26,18,5,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffeacb;
+  }
+  /* Lower Header Top Right Text */
+  .bottom h3 {
+    background-color: 	salmon;
+    border-radius: 10px;
+    text-shadow: 3px 1px black;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* sets the .blocks along the column axis */
+  main {
+    display:flex;
+    flex-direction: column;
+    
+  }
+
+  /* sets .left and .right along a row within .block */
+  .block {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* Left Half of Main */
+  .block .left {
+    margin-left: 50px;
+  }
+  /* Right half of main */
+  .block .right {
+    width:1500;
+    margin-top: 20px;
+    margin-left:50px;
+    max-width:1500px;
+    margin-right:50px;
+  }
+
+/* center aligns my picture */
+  #me {
+    display:flex;
+    flex-direction: row;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .left {
+    width: 175px;
+  }
+  /* .work image cards underneath the top image */
+  .small {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-height: 333px; */
+  }
+
+  .small img {
+    margin-top: 15px;
+   
+  }
+  /* .big {
+    max-height: 1000px;
+  } */
+  /* Hides the header over the top image in favor of the overlay for larger screens */
+  .big h4 {
+    display:none;
+  }
+  
+  /* code for the overlay modified slightly from a w3 schools snippit */
+  .overlay {
+    position:relative;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+  }
+
+  figure:hover .overlay {
+    opacity: 1;
+  }
+
+   /* Bottom right text */
+   #contacts li {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 2.2rem;
+   }
+
+   /* 🐕 on h2 after hover */
+  h2:hover::after,
+  h2:focus::after {
+    content:'🐕';
+    display: inline-block;
+    font-size: 2.4rem;
+    margin-left:10px;
+  }
+  /* Hides H3 emoji until hover */
+  span.emoji{
+    display:none;
+  }
+
+  /* code to turn h3=Devious Doge into 🐕 upon hover */
+  .bottom:hover span.default,
+  .bottom:focus span.default{
+    display:none;
+  }
+  /* Displays h3 emoji */
+  .bottom:hover span.emoji,
+  .bottom:focus span.emoji{
+    display:block;
+  }
+  /* removes link underlines */
+  a:link {
+    text-decoration: none;
+    color:#00327d;
+  }
+  
+  a:link:visited {
+    color:#00327d;
+  }
+
+    a:link:hover,
+    a:link:focus  {
+    text-decoration: underline;
+  }
+
+  a:link:active {
+    text-decoration: underline;
+    color: black;
+  }
+
+
+  /* code to specifically apply to the navbar links, giving them unique
+  properties */
+  .top a {
+    color:#ffeacb;
+  }
+  
+  .top a:hover,
+  .top a:focus {
+    color:white;
+  }
+
+ 
+
+  /* Content unique to default desktop layout */
+  @media screen and (min-width: 1789px) {
+    .block  {
+     justify-content: space-between;
+    }
+
+    .left {
+      border-right: 2px solid #00327d;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-right: 50px;
+    }
+    #contacts {
+      margin-right: 223px;
+    }
+  }
+
+  /* Any time the screen is small enough to wrap the .right div under 
+  .left */
+
+  @media screen and (max-width: 1789px) {
+  
+   
+
+ .block {
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+ .left {
+  width:auto;
+  margin-top:30px;
+ }
+ 
+ .right {
+  padding-top: 30px;
+  border-top:2px solid #00327d;
+ }
+
+  .left h2 {
+  display:inline;
+  text-align:center;
+  max-width: fit-content;
+  border-radius: 10px;
+  color: #00327d;
+  background-color: white;
+  padding: 5px;
+ }
+
+ #contacts {
+  margin-bottom: 50px;
+ }
+  }
+  
+  /* Unique properties to the four small image cards for larger screens */
+  @media screen and (min-width: 1274px) {
+    .smallimage img {
+      border: 4px dashed #00327d;
+    }
+  }
+  
+  /* Unique properties to the image cards for smaller screens */
+  @media screen and (max-width: 1274px) {
+    #me {
+      height:auto;
+    }
+    .overlay {
+      display:none;
+    }
+   
+    .big {
+      margin-left:10px;
+      margin-right:10px;
+    }
+    .big img {
+      height:auto;
+    }
+
+    .smallimage {
+      margin:50px;
+      margin-right:10px;
+      margin-left:10px;
+    }
+    .smallimage img {
+      margin-top: 30px;
+      width: 500px;
+      height:auto;
+    }
+
+    h4 {
+      font-size:3.6rem;
+    }
+
+    .big h4 {
+      display:block;
+    }
+    
+    .big img {
+      margin-top: 30px;
+    }
+
+    
+  }
+
+  /* Optimizing the contact me section for tablets and small laptops */
+  @media screen and (max-width: 1000px) {
+
+    
+
+    #contacts  {
+      display:flex;
+     }
+     
+     #contacts li {
+      font-size: 1.8rem;
+     }
+ 
+
+    }
+
+    /* Unique properties for mobile-sized screens */
+    @media screen and (max-width: 600px) { 
+
+      main {
+        background-color: #7fb2ff;
+      }
+      
+      .pcontainer {
+        margin: 10px;
+      }
+      .right {
+       background-color: #cbe0ff;
+       border-radius: 20px;
+       border-top:none;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+      
+      #me {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      h2 {
+        max-width: none;
+      } 
+
+      #contacts {
+      flex-direction: column;
+     }
+
+     #contacts li {
+      font-size: 2.4rem;
+
+     }
+    }
