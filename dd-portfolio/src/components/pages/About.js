@@ -11,8 +11,8 @@ export default function About() {
         <div class="right">
           <img id="me" src={pfp} alt="me" width="500" height="500"></img>
           <div class="pcontainer">
-          <p>My name is Sean Dillon, and I am an aspiring fullstack web developer and software engineer operating under the alias 'Devious Doge'. I am currently attending the UPENN fullstack web development boot camp and am nearly done learning CSS. You can tell this by the fact that I have made this webpage using silly early 2000's web design skills. This portfolio will be updated as the scope of my web development knowledge increases. The 'work' section contains a few placeholder images for now. </p> 
-          <p>I hope that once my skills as a web developer are more robust and I have found a stable position in the industry I can learn C# and create games on Unity in my spare time. C# will open additional doors in the fullstack web development careerpath as well and so this will undoubtedly be my clear next step in my coding journey. Any projects on Unity I begin to seriously attempt to tackle will without a doubt be featured on this portfolio. I am excited for the future of my career and this silly page will certainly become more impressive as time goes on!  </p>
+          <p>My name is Sean Dillon. I am a fullstack web developer and software engineer operating under the alias 'Devious Doge'. I am knowledgeable in HTML, CSS, JavaScript, Node, SQL, Jquery, React, MongoDB, and some C#. I intend to continue broadening the scope of my knowledge and never stop learning. </p>
+          <p>As a hobby I am interested in game development through the unity platform, and through that journey hope to develop skills in story telling, graphic design, synthetic music, and game design. I am based in the South Florida area and am open to employment as a web developer. </p>
           </div>
     </div>
     </section>

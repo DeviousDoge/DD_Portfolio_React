@@ -3,7 +3,8 @@ import dailyplanets from "./images/dailyplanets.png";
 import winner from "./images/winner.png";
 import schedule from "./images/scheduleronschedule.png";
 import weather from "./images/weather.png";
-import doge from "./images/Devious Doge.jpeg"
+import arthub from "./images/arthub.png"
+
 export default function Work() {
   return (
     <div id="work">
@@ -43,9 +44,9 @@ export default function Work() {
                 </a>
             </figure>
             <figure class="smallimage">
-                <h4>Coming Soon?</h4>
-                <a href="#">
-            <img  src={doge} width="500" height="333" alt="Coming Soon"></img>
+                <h4>ArtHub-WIP</h4>
+                <a href="https://fierce-peak-37996.herokuapp.com/">
+            <img  src={arthub} width="500" height="333" alt="Coming Soon"></img>
                 </a>
             </figure>
         </div>
