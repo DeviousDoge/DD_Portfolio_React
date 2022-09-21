@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/reset.css';
 import '../styles/style.css'
+import resume from "./resume.pdf"
 function NavTabs({currentPage, handlePageChange}) {
     return (
         <header>
@@ -35,6 +36,14 @@ function NavTabs({currentPage, handlePageChange}) {
                      >
                         Contact
                         </a>
+                </li>
+                <li>
+                    <a
+                    download="resume.pdf"
+                    href={resume}
+                    >
+                        Resume
+                    </a>
                 </li>
             </ul>
         </section>
