@@ -160,7 +160,9 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(37,22,7,1) 35%, rgba
   .big h4 {
     display:none;
   }
-  
+  .description {
+  max-width: 500px;
+  }
   /* code for the overlay modified slightly from a w3 schools snippit */
   .overlay {
     position:relative;

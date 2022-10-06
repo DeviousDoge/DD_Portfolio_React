@@ -39,7 +39,7 @@ export default function PortfolioContainer() {
           <li>Email: <a href="mailto:pdillon0@gmail.com">Pdillon0@gmail.com</a></li>
           <li>Phone: <a href="tel:904-728-8808">904-728-8808</a></li>
           <li>Github: <a href="https://github.com/DeviousDoge">DeviousDoge</a></li>
-          <li>Discord: <a href="https://discord.com/channels/Devious Doge#9377">Devious Doge</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/seandillondd/">seandillondd</a></li>
         </ul>
     </div>
    
