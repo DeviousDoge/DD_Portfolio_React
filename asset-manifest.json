@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/DD_Portfolio_React/static/css/main.1ff35255.css",
-    "main.js": "/DD_Portfolio_React/static/js/main.3041d91d.js",
+    "main.css": "/DD_Portfolio_React/static/css/main.f1ca95f4.css",
+    "main.js": "/DD_Portfolio_React/static/js/main.866eebf5.js",
     "static/media/dailyplanets.png": "/DD_Portfolio_React/static/media/dailyplanets.80c18bfeeb3ab5b89b86.png",
     "static/media/arthub.png": "/DD_Portfolio_React/static/media/arthub.65af77264d0fb9f0989e.png",
     "static/media/4F9EBB6F-22E8-4824-A6B2-B22740962E8C.jpeg": "/DD_Portfolio_React/static/media/4F9EBB6F-22E8-4824-A6B2-B22740962E8C.0d2ed9e365fcb6a4f815.jpeg",
+    "static/media/blackbook.png": "/DD_Portfolio_React/static/media/blackbook.3f26159c31e32cded569.png",
     "static/media/weather.png": "/DD_Portfolio_React/static/media/weather.5a303374446db362da78.png",
     "static/media/scheduleronschedule.png": "/DD_Portfolio_React/static/media/scheduleronschedule.74b07de516b7ba66aa1a.png",
-    "static/media/winner.png": "/DD_Portfolio_React/static/media/winner.adf5fc98e84ffdd34572.png",
     "static/media/resume.pdf": "/DD_Portfolio_React/static/media/resume.207105c554b9809a2037.pdf",
     "index.html": "/DD_Portfolio_React/index.html",
-    "main.1ff35255.css.map": "/DD_Portfolio_React/static/css/main.1ff35255.css.map",
-    "main.3041d91d.js.map": "/DD_Portfolio_React/static/js/main.3041d91d.js.map"
+    "main.f1ca95f4.css.map": "/DD_Portfolio_React/static/css/main.f1ca95f4.css.map",
+    "main.866eebf5.js.map": "/DD_Portfolio_React/static/js/main.866eebf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff35255.css",
-    "static/js/main.3041d91d.js"
+    "static/css/main.f1ca95f4.css",
+    "static/js/main.866eebf5.js"
   ]
 }
