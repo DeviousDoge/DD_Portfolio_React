@@ -33,16 +33,16 @@ export default function Contact() {
       class="form"
     >
       <div>
-        <input type="text" placeholder="Your name" name="name" required />
+        <input type="text" placeholder="Wait!" name="name" required />
       </div>
       <div>
-        <input type="email" placeholder="Email" name="email" required />
+        <input type="email" placeholder="Use email link below" name="email" required />
       </div>
       <div>
-        <textarea placeholder="Your message" name="message" required />
+        <textarea placeholder="Dont use this" name="message" required />
       </div>
       <div>
-        <button type="submit"> Send a message </button>
+        <button type="submit"> Making a new backend with cooler tools 😎 </button>
       </div>
     </form>
     </div>
