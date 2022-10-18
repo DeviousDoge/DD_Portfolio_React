@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DD_Portfolio_React/static/css/main.f1ca95f4.css",
-    "main.js": "/DD_Portfolio_React/static/js/main.866eebf5.js",
+    "main.js": "/DD_Portfolio_React/static/js/main.0c0dba08.js",
     "static/media/dailyplanets.png": "/DD_Portfolio_React/static/media/dailyplanets.80c18bfeeb3ab5b89b86.png",
     "static/media/arthub.png": "/DD_Portfolio_React/static/media/arthub.65af77264d0fb9f0989e.png",
     "static/media/4F9EBB6F-22E8-4824-A6B2-B22740962E8C.jpeg": "/DD_Portfolio_React/static/media/4F9EBB6F-22E8-4824-A6B2-B22740962E8C.0d2ed9e365fcb6a4f815.jpeg",
@@ -11,10 +11,10 @@
     "static/media/resume.pdf": "/DD_Portfolio_React/static/media/resume.207105c554b9809a2037.pdf",
     "index.html": "/DD_Portfolio_React/index.html",
     "main.f1ca95f4.css.map": "/DD_Portfolio_React/static/css/main.f1ca95f4.css.map",
-    "main.866eebf5.js.map": "/DD_Portfolio_React/static/js/main.866eebf5.js.map"
+    "main.0c0dba08.js.map": "/DD_Portfolio_React/static/js/main.0c0dba08.js.map"
   },
   "entrypoints": [
     "static/css/main.f1ca95f4.css",
-    "static/js/main.866eebf5.js"
+    "static/js/main.0c0dba08.js"
   ]
 }
